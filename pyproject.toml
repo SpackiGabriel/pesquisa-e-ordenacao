@@ -1,18 +1,14 @@
-[project]
-name = "pesquisa-e-ordenacao"
-version = "0.1.0"
-description = ""
-package-mode = false
-authors = [
-    {name = "SpackiGabriel",email = "ifprgabriel@gmail.com"}
-]
-readme = "README.md"
-requires-python = ">=3.13"
-dependencies = [
-    "flet (>=0.27.6,<0.28.0)"
-]
+[tool.poetry]
+name = "pesquisa-e-ordenacao"      # pode ser qualquer identificador único
+version = "0.1.0"                  # idem
+description = ""                   # opcional
+readme = "README.md"               # opcional
+authors = ["SpackiGabriel <ifprgabriel@gmail.com>"]
 
+[tool.poetry.dependencies]
+python = ">=3.13,<4.0"
+flet   = ">=0.27.6,<0.28.0"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires    = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
