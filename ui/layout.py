@@ -50,7 +50,7 @@ def build_layout(page):
                     wrap=True,
                     spacing=10,
                 ),
-                Column([original_txt, sorted_txt, time_txt], spacing=10),
+                Column([time_txt, original_txt, sorted_txt], spacing=10),
             ],
             spacing=20,
         )
